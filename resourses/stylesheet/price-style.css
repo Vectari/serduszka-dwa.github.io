@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+/* HEADER */
+
+header {  
+    pointer-events: auto;
+    background-color: #EDEDED;
+    width: 100%;
+}
+
+#logo {
+    text-align: center;
+}
+
+.logo {
+    font-size: 2.8rem;
+    font-family: 'Great Vibes', cursive;
+    display: inline-block;
+}
+
+.logo-image {
+    width: 5.8rem;
+    display: inline-block;
+    margin-top: 8px;
+    padding-left: 10px;
+}
+
+ul {
+    padding-top: 10px;
+    z-index: 100;
+    position: relative;   
+}
+
+li {
+    display: block;
+    font-size: 1rem;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.active a {
+    color: #D9D75B
+}
+
+/*BODY*/
+
+.couple-dance {
+    width: 40%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.price-info {
+    font-size: 1.5rem;
+    font-family: 'Antwerp Regular','Times New Roman',Times,serif;
+    color: #606060;
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 0rem;
+}
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    background-color: #EDEDED;
+    margin-top: 8px;
+    min-height: 95px;
+}
+
+.column-one {
+    font-family: 'Cinzel', serif;
+    font-size: 0.7rem;
+    float: left;
+    display: inline;
+    width: 40%;
+    padding-left: 8px;
+}
+
+.column-two {
+    font-family: 'Cinzel', serif;
+    font-size: 0.7rem;
+    float: right;
+    display: inline;
+    padding-right: 8px;
+    line-height: 1.2rem;
+    width: 50%;
+}
+
+.up {
+    font-family: 'Cinzel', serif;
+    font-size: 0.5rem;
+}
+
+.address,
+.contact {
+    text-decoration: underline;
+    background-color: #EDEDED;
+}
+
+/* @media section */
+
+@media only screen and (min-width: 425px) {
+    .price-info {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .logo {
+         font-size: 3.1rem;
+    }
+    
+    .logo-image {
+        width: 6.1rem;
+    }
+    
+    li {
+         font-size: 1.3rem;
+    }
+
+    .couple-dance {
+        width: 40%;
+        
+    }
+    
+    .price-info {
+        font-size: 1.8rem;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .column-one {
+        font-size: 1.1rem;
+    }
+
+    .column-two {
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+    }
+
+    .up {
+        font-size: 0.8rem;
+    }
+
+    footer {
+        min-height: 140px;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+.logo {
+        font-size: 3rem;
+    }
+
+    .logo-image {
+        width: 7rem;
+    }
+
+    li {
+        font-size: 1.6rem;
+    }
+
+    .price-info {
+        font-size: 2.2rem;
+    }
+
+    .column-one {
+        font-size: 1.3rem;
+    }
+
+    .column-two {
+        font-size: 1.3rem;
+        line-height: 2.2rem;
+    }
+
+    .up {
+        font-size: 1.1rem;
+    }
+
+    footer {
+        min-height: 195px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    #logo {
+        text-align: left;
+        padding-top: 8px;
+        padding-left: 15px;
+        margin-bottom: 30px;
+    }
+
+    .logo {
+        font-size: 3.3rem;
+        position: absolute;
+    }
+
+    .logo-image {
+        width: 6.3rem;
+        position: absolute;
+        margin-left: 300px;
+        margin-top: -5px;
+    }
+
+    ul {
+        position: relative;
+    }
+
+    li {
+        display: inline-block;
+        font-size: 1.45rem;
+        padding: 8px;
+    }
+
+    .price-info {
+        font-size: 2.4rem;
+    }
+
+    .navigation {
+        text-align: right;
+
+    }
+
+    footer {
+        min-height: 170px;
+    }
+
+    .column-one {
+        font-size: 1.2rem;
+    }
+    
+    .column-two {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    
+    .up {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    #logo {
+        text-align: left;
+        padding-top: 8px;
+        padding-left: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .logo {
+        font-size: 4rem;
+        position: absolute;
+    }
+
+    .logo-image {
+        width: 8rem;
+        position: absolute;
+        margin-left: 360px;
+        margin-top: -5px;
+    }
+
+    ul {
+        position: relative;
+    }
+
+    li {
+        display: inline-block;
+        font-size: 1.8rem;
+        padding: 8px;  
+    }
+
+    .navigation {
+        text-align: right;
+        
+    }
+    
+    footer {
+        min-height: 175px;
+    }
+
+    .column-one {
+        font-size: 1.6rem;
+    }
+    
+    .column-two {
+        font-size: 1.6rem;
+    }
+    
+    .up {
+        font-size: 1.4rem;
+    }
+}
